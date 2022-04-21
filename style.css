@@ -1,0 +1,124 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+.choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.choice-grid div{
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border: solid #dcdcdc 1px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 32.5%;
+}
+
+.choice-grid div img{
+    width: 100%;
+}
+
+@media (max-width: 700px){
+    article{
+        width: 95%;
+    }
+
+    header div{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .choice-grid div{
+        width: 49%;
+    }
+
+    .question-name h1{
+        font-size: 2em;
+    }
+}
+
+.choice-grid div.selected{
+    background-color:#cfe3ff;
+}
+
+.opacity{
+    opacity: 0.6;
+}
+
+#result{
+    margin: 20px 0;
+    padding: 20px;
+}
+
+#result h1{
+    margin-top: 0;
+}
+
+.hidden{
+    display: none;
+}
+
+#button{
+    background-color: #cecece;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button:hover{
+    background-color: #e0e0e0;
+}
+
+#movie{
+    text-align: center;
+    font-family: Arial;
+    width: 48%;
+}
+
+#movie img{
+    max-width: 100%;
+}
+
+button{
+    margin: 10px;
+    background-color: #f44336;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#api{
+    display: flex;
+    text-align: center;
+    font-family: Arial;
+    justify-content: space-between;
+}
+
+#spotify{
+    width: 48%;
+}
+
+#spotify div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.thumbnail{
+    max-width: 25%;
+    margin-right: 10px;
+}
+
+.link{
+    margin-left: auto;
+}
+
+.play{
+    height: 50px;
+}
