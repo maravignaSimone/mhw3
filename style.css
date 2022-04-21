@@ -86,7 +86,7 @@
 button{
     margin: 10px;
     background-color: #f44336;
-    padding: 15px 30px;
+    padding: 10px 25px;
     color: white;
     border: none;
     cursor: pointer;
@@ -100,7 +100,29 @@ button{
 }
 
 #spotify{
-    width: 48%;
+    width: 20%;
+    position: fixed;
+    right: 2%;
+    top: 5%;
+}
+
+#movie{
+    width: 20%;
+    position: fixed;
+    left: 2%;
+    top: 0;
+}
+
+@media (max-width: 1300px) {
+    #spotify{
+        width: 45%;
+        position: relative;
+    }
+
+    #movie{
+        width: 45%;
+        position: relative;
+    }
 }
 
 #spotify div{
